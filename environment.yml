@@ -1,4 +1,4 @@
-name: env398
+name: envs398
 channels:
   - conda-forge
   - defaults
@@ -7,12 +7,12 @@ dependencies:
   - pip
   - numpy
   - matplotlib
-  - harmonica
+  - numba
+  #- harmonica
   - verde
   - boule
   - pooch
   - rockhound
-  - gmt==6.*
   - jupyter
   - jupyterlab
   - cartopy
@@ -20,3 +20,4 @@ dependencies:
   - cmocean
   - pip:
     - nbgitpuller
+    - https://github.com/fatiando/harmonica/archive/load_gdf_file.zip
