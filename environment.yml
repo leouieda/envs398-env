@@ -8,10 +8,10 @@ dependencies:
   - numpy
   - matplotlib
   - numba
-  #- harmonica
-  - verde
+  - harmonica
+  - verde>=1.4.0
   - boule
-  - pooch
+  - pooch>=1.1.0
   - rockhound
   - jupyter
   - jupyterlab
@@ -20,4 +20,3 @@ dependencies:
   - cmocean
   - pip:
     - nbgitpuller
-    - https://github.com/fatiando/harmonica/archive/load_gdf_file.zip
