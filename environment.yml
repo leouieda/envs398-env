@@ -8,11 +8,11 @@ dependencies:
   - numpy
   - matplotlib
   - numba
-  - harmonica
   - verde>=1.4.0
   - boule
   - pooch>=1.1.0
   - rockhound
+  - pyproj
   - jupyter
   - jupyterlab
   - cartopy
@@ -20,3 +20,4 @@ dependencies:
   - cmocean
   - pip:
     - nbgitpuller
+    - https://github.com/fatiando/harmonica/archive/master.zip
