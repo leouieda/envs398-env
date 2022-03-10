@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python==3.8
+  - python==3.10
   - pip
   - numpy
   - matplotlib
@@ -18,6 +18,3 @@ dependencies:
   - cartopy
   - cartopy_offlinedata
   - cmocean
-  - pip:
-    - nbgitpuller
-    - https://github.com/fatiando/harmonica/archive/master.zip
